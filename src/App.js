@@ -10,7 +10,7 @@ const List = (props) => {
     </div>
 
     <div className="col-sm-3">
-     <h3>${props.number}</h3>
+     <h3>{props.number}</h3>
     </div>
 
     <div className="col-sm-3">
@@ -114,7 +114,7 @@ const App = () => {
         <div className="row">
         <div className="jumbotron" style={{backgroundColor : '#34ebc3'}}>
           <h1>Expense Tracker</h1>
-          <p>Use me to watch your budget! Price field is mandatory.</p>
+          <p>Use me to watch your budget! Fields are not mandatory.</p>
         </div>
         </div>
       </div>
@@ -137,7 +137,8 @@ const App = () => {
           <div className="input-group">
           <span className="input-group-addon"><i className="glyphicon glyphicon-usd"></i></span>
           <input className="form-control"
-            placeholder="5.99"
+            placeholder="$5.99"
+            pattern="^\$(([1-9]\d{0,2}(,\d{3})*)|(([1-9]\d*)?\d))(\.\d\d)?$"
             value={newNum}
             onChange={handleNumChange}
           />
