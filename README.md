@@ -1,3 +1,5 @@
+This project requires Node.js.
+
 In the project directory, run:
 
 ### `npm install`
