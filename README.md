@@ -2,11 +2,10 @@ In the project directory, run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will start the development server for the app.\
+It is set to [http://localhost:3001](http://localhost:3001).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will hot refresh if you make edits to the code.\
 
 ### `npm run build`
 
