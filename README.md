@@ -1,5 +1,7 @@
 In the project directory, run:
 
+### `npm install`
+
 ### `npm start`
 
 This will start the development server for the app.\
